@@ -5,3 +5,15 @@ p {
   width: 1000px;
   height: 100px;
 }
+
+@media (prefers-color-scheme: dark) {
+  .day {
+    background: yellow;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .day {
+    background: blue;
+  }
+}
