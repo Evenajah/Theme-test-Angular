@@ -1,0 +1,13 @@
+:host-context(.light-theme) .two {
+  background-color: #ffffff;
+  color: #161616;
+}
+
+:host-context(.dark-theme) .two {
+  background-color: #161616;
+  color: #fff;
+}
+.two {
+  width: 100%;
+  height: 100%;
+}
